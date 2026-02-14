@@ -6,7 +6,7 @@
   <title>Бездротові навушники M25 — 249 грн | LED-дисплей, Bluetooth 5.3, IPX7</title>
   <meta name="description" content="Навушники M25: LED-дисплей, Bluetooth 5.3, IPX7, кейс 2000 мАг. Ціна по акції 249 грн. Доставка по Україні, оплата при отриманні."/>
   <meta property="og:title" content="Бездротові навушники M25 — 249 грн"/>
-  <meta property="og:description" content="LED-дисплей • Bluetooth 5.3 • IPX7 • Кейс 2000 мАг. Доставка по Україні."/>
+  <meta property="og:description" content="LED-дисплей • Bluetooth 5.3 • IPX7 • Кейс 2000 мАг. Доставка по Україні, оплата при отриманні."/>
   <meta property="og:type" content="product"/>
   <meta property="og:image" content="https://rivcont.com/images/thumbnails/detailed/3747/fbb2f15b2a4a8a457c7b7a38afddc875.webp"/>
   <meta name="theme-color" content="#63c316"/>
@@ -18,11 +18,9 @@
       --dark:#12161f;
       --dark2:#0c1016;
       --txt:#f3f7ff;
-      --muted:#c9d3e6;
       --line:rgba(255,255,255,.12);
       --danger:#ff3d57;
       --shadow:0 16px 50px rgba(0,0,0,.45);
-      --r:18px;
     }
     *{box-sizing:border-box}
     body{
@@ -34,7 +32,7 @@
     a{color:inherit; text-decoration:none}
     .wrap{max-width:420px; margin:0 auto; background:#fff; min-height:100vh}
 
-    /* ====== HEADER (integrated refined) ====== */
+    /* ====== HEADER (refined, as agreed) ====== */
     .top{
       background: linear-gradient(180deg,#67c81a 0%,#3aa90a 100%);
       padding:28px 14px 22px;
@@ -153,7 +151,7 @@
     .pSale .big{font-size:14px; font-weight:950; letter-spacing:.6px}
     .pSale .pct{font-size:22px; font-weight:1000}
 
-    /* ===== ICON CARDS (colorful SVG, always works) ===== */
+    /* ===== ICON CARDS (SVG, always works) ===== */
     .icons{
       display:grid;
       grid-template-columns: repeat(3, 1fr);
@@ -324,10 +322,7 @@
     .txtBlock b{background:rgba(99,195,22,.18); padding:0 4px; border-radius:6px}
 
     /* benefits */
-    .benefits{
-      display:grid;
-      gap:10px;
-    }
+    .benefits{display:grid; gap:10px}
     .bCard{
       border-radius:16px;
       overflow:hidden;
@@ -453,20 +448,25 @@
       </div>
     </div>
 
-    <!-- ICONS (colorful) -->
+    <!-- ICONS (battery icon replaced) -->
     <div class="icons">
       <div class="iconCard">
+        <!-- NEW battery icon -->
         <svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true">
           <defs>
-            <linearGradient id="g1" x1="0" x2="1">
+            <linearGradient id="batG" x1="0" x2="1">
               <stop offset="0" stop-color="#00D2FF"/>
               <stop offset="1" stop-color="#3A7BFF"/>
             </linearGradient>
+            <linearGradient id="boltG" x1="0" x2="1">
+              <stop offset="0" stop-color="#FFF200"/>
+              <stop offset="1" stop-color="#FFB400"/>
+            </linearGradient>
           </defs>
-          <path d="M18 22h32v20a8 8 0 0 1-8 8H26a8 8 0 0 1-8-8V22z" fill="url(#g1)"/>
-          <path d="M22 18h24v6H22z" fill="#dff6ff" opacity=".9"/>
-          <path d="M50 28h4a4 4 0 0 1 4 4v4a4 4 0 0 1-4 4h-4v-4h4v-4h-4v-4z" fill="#dff6ff" opacity=".9"/>
-          <path d="M26 38h16" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity=".9"/>
+          <rect x="10" y="18" width="44" height="28" rx="10" fill="url(#batG)"/>
+          <rect x="54" y="26" width="6" height="12" rx="4" fill="#dff6ff" opacity=".95"/>
+          <path d="M34 20h-6l-4 12h6l-2 12 12-16h-6l2-8z" fill="url(#boltG)"/>
+          <path d="M16 30h10" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity=".55"/>
         </svg>
         <div class="t">Довга робота</div>
         <div class="d">Кейс 2000 мАг — зручно в дорозі</div>
@@ -531,8 +531,7 @@
 
         <div class="stock">⚠️ Кількість по акції: <b id="stock">12</b> шт.</div>
         <div class="fine">
-          Натискаючи «Оформити замовлення», ви погоджуєтесь на обробку даних для звʼязку.
-          <br/>Заявка відправиться на email (можна замінити на Telegram/CRM/Sheets).
+          Заявка надішлеться на email (можна замінити на Telegram/CRM/Sheets).
         </div>
       </form>
     </div>
@@ -552,36 +551,37 @@
 
       <div class="txtBlock">
         M25 поєднують <b>стабільний Bluetooth</b>, зручний кейс з <b>LED-дисплеєм</b> та захист <b>IPX7</b>.
-        Чудово підходять для міста, спорту та дзвінків.
+        Підійдуть для міста, спорту та дзвінків.
       </div>
     </div>
 
-    <!-- BENEFITS (with stable images) -->
+    <!-- BENEFITS (new web images) -->
     <div class="section">
       <div class="h2">Переваги M25</div>
+      <div class="note">Я підібрав 3 тематичні картинки з інтернету (прямі посилання на файли).</div>
 
       <div class="benefits">
         <div class="bCard">
-          <img src="https://rivcont.com/images/thumbnails/detailed/3747/fbb2f15b2a4a8a457c7b7a38afddc875.webp" alt="Кейс PowerBank">
+          <img src="https://sc04.alicdn.com/kf/H34944fe118d74e4b802f683c6415e613j/231012717/H34944fe118d74e4b802f683c6415e613j.png" alt="Автономність / акумулятор">
           <div class="bText">
-            <div class="bTitle">Кейс-PowerBank</div>
-            <p class="bDesc">Велика ємність — зручно в дорозі та на роботі. Заряд під рукою.</p>
+            <div class="bTitle">Довга автономність</div>
+            <p class="bDesc">Зручно для дороги та роботи: менше підзарядок, більше музики.</p>
           </div>
         </div>
 
         <div class="bCard">
-          <img src="https://rivcont.com/images/thumbnails/detailed/3747/0e798910113062d65d41f4bace6cbc3a.webp" alt="LED-дисплей заряду">
+          <img src="https://down-my.img.susercontent.com/file/my-11134207-7r98q-lvx8kl6oys8p25" alt="LED-дисплей M25">
           <div class="bText">
             <div class="bTitle">LED-дисплей заряду</div>
-            <p class="bDesc">Видно заряд кейса та навушників — менше сюрпризів, більше контролю.</p>
+            <p class="bDesc">Видно заряд кейса та навушників — контроль без сюрпризів.</p>
           </div>
         </div>
 
         <div class="bCard">
-          <img src="https://rivcont.com/images/thumbnails/detailed/3747/c83f7af604fcf0f2b7c90981a3b723a4.webp" alt="Стабільне зʼєднання">
+          <img src="https://sc04.alicdn.com/kf/Hc55c5795a7694c74be2eb7c45bb501009/231012717/Hc55c5795a7694c74be2eb7c45bb501009.png" alt="Стабільний зв’язок / низька затримка">
           <div class="bText">
-            <div class="bTitle">Стабільний звʼязок</div>
-            <p class="bDesc">Bluetooth 5.3 — менше затримок та стабільніше підключення щодня.</p>
+            <div class="bTitle">Стабільний зв’язок</div>
+            <p class="bDesc">Менше затримок — комфортніше для відео, ігор та дзвінків.</p>
           </div>
         </div>
       </div>
@@ -595,7 +595,7 @@
       <div class="spec">
         <div class="rowSpec"><div class="k">Модель</div><div class="v">M25</div></div>
         <div class="rowSpec"><div class="k">Bluetooth</div><div class="v">5.3</div></div>
-        <div class="rowSpec"><div class="k">Кейс</div><div class="v">2000 мАг (PowerBank)</div></div>
+        <div class="rowSpec"><div class="k">Кейс</div><div class="v">2000 мАг</div></div>
         <div class="rowSpec"><div class="k">Захист</div><div class="v">IPX7</div></div>
         <div class="rowSpec"><div class="k">Зарядка</div><div class="v">≈ 1 година</div></div>
         <div class="rowSpec"><div class="k">Час роботи</div><div class="v">3–4 години</div></div>
@@ -608,11 +608,11 @@
       <div class="reviews">
         <div class="rev">
           <div class="revTop"><div class="revName">Олег, Київ</div><div class="revStars">★★★★★</div></div>
-          <p>За ці гроші топ. Дисплей зручний, заряд видно одразу. Звʼязок тримає нормально.</p>
+          <p>За ці гроші топ. Дисплей зручний, заряд видно одразу. Зв’язок норм.</p>
         </div>
         <div class="rev">
           <div class="revTop"><div class="revName">Марина, Дніпро</div><div class="revStars">★★★★★</div></div>
-          <p>Прийшли швидко. Сидять зручно, для спорту ок. За 249 грн супер.</p>
+          <p>Прийшли швидко. Сидять зручно. За 249 грн — супер.</p>
         </div>
         <div class="rev">
           <div class="revTop"><div class="revName">Андрій, Львів</div><div class="revStars">★★★★☆</div></div>
@@ -632,7 +632,7 @@
           </div>
           <div class="cell">
             <b>Оплата</b>
-            <span>Накладений платіж (при отриманні) або онлайн (за потреби).</span>
+            <span>Накладений платіж (при отриманні) або онлайн.</span>
           </div>
           <div class="cell">
             <b>Доставка</b>
@@ -657,39 +657,12 @@
 
   </div>
 
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "Бездротові навушники M25",
-    "sku": "8162",
-    "image": [
-      "https://rivcont.com/images/thumbnails/detailed/3747/fbb2f15b2a4a8a457c7b7a38afddc875.webp",
-      "https://rivcont.com/images/thumbnails/detailed/3747/c83f7af604fcf0f2b7c90981a3b723a4.webp",
-      "https://rivcont.com/images/thumbnails/detailed/3747/0e798910113062d65d41f4bace6cbc3a.webp"
-    ],
-    "offers": {
-      "@type": "Offer",
-      "priceCurrency": "UAH",
-      "price": "249",
-      "availability": "https://schema.org/InStock"
-    }
-  }
-  </script>
-
   <script>
-    // ====== CONFIG ======
     const CONFIG = {
       price: 249,
       oldPrice: 399,
       stock: 12,
-      // Таймер: до 23:59 сьогодні (час браузера)
-      timerEnd: (() => {
-        const d = new Date();
-        d.setHours(23,59,59,999);
-        return d.getTime();
-      })(),
-      // Куди надсилати заявки (поки email)
+      timerEnd: (() => { const d=new Date(); d.setHours(23,59,59,999); return d.getTime(); })(),
       mailTo: "rivcont.sales.info@gmail.com"
     };
 
@@ -706,8 +679,7 @@
 
     function pad(n){ return String(n).padStart(2,"0"); }
     function tick(){
-      const now = Date.now();
-      let diff = CONFIG.timerEnd - now;
+      let diff = CONFIG.timerEnd - Date.now();
       if(diff < 0) diff = 0;
       const h = Math.floor(diff/3600000);
       const m = Math.floor((diff%3600000)/60000);
@@ -716,8 +688,7 @@
       setText("mm", pad(m));
       setText("ss", pad(s));
     }
-    tick();
-    setInterval(tick, 1000);
+    tick(); setInterval(tick, 1000);
 
     const SLIDES = [
       "https://rivcont.com/images/thumbnails/detailed/3747/c83f7af604fcf0f2b7c90981a3b723a4.webp",
@@ -733,7 +704,6 @@
     document.getElementById("prev").addEventListener("click", ()=>show(idx-1));
     document.getElementById("next").addEventListener("click", ()=>show(idx+1));
 
-    // mailto
     document.getElementById("orderForm").addEventListener("submit", (e)=>{
       e.preventDefault();
       const name = (document.getElementById("name").value||"").trim();
@@ -745,9 +715,7 @@
       const body = encodeURIComponent(
         `Товар: Бездротові навушники M25\n` +
         `Ціна: ${CONFIG.price} грн (було ${CONFIG.oldPrice} грн)\n\n` +
-        `Ім'я: ${name}\n` +
-        `Телефон: ${phone}\n\n` +
-        `Джерело: лендинг\n`
+        `Ім'я: ${name}\nТелефон: ${phone}\n\nДжерело: лендинг\n`
       );
       window.location.href = `mailto:${CONFIG.mailTo}?subject=${subject}&body=${body}`;
     });
