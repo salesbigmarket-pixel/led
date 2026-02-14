@@ -6,7 +6,7 @@
   <title>Беспроводные наушники M25 — 249 грн | LED-дисплей, Bluetooth 5.3, IPX7</title>
   <meta name="description" content="Беспроводные наушники M25: LED-дисплей, Bluetooth 5.3, IPX7, кейс 2000 мАч. Цена по акции 249 грн. Доставка по Украине, оплата при получении."/>
   <meta property="og:title" content="Беспроводные наушники M25 — 249 грн"/>
-  <meta property="og:description" content="LED-дисплей • Bluetooth 5.3 • IPX7 • Кейс 2000 мАч. Доставка по Украине."/>
+  <meta property="og:description" content="LED-дисплей • Bluetooth 5.3 • IPX7 • Кейс 2000 мАч. Доставка по Украине, оплата при получении."/>
   <meta property="og:type" content="product"/>
   <meta property="og:image" content="https://rivcont.com/images/thumbnails/detailed/3747/fbb2f15b2a4a8a457c7b7a38afddc875.webp"/>
   <meta name="theme-color" content="#63c316"/>
@@ -17,7 +17,6 @@
       --green2:#4aa80c;
       --dark:#12161f;
       --dark2:#0c1016;
-      --card:#1a2130;
       --txt:#f3f7ff;
       --muted:#c9d3e6;
       --line:rgba(255,255,255,.12);
@@ -51,10 +50,8 @@
       font-weight:700;
       font-size:12px;
     }
-    .heroImg{
-      padding:12px 12px 0;
-      background:#fff;
-    }
+
+    .heroImg{padding:12px 12px 0; background:#fff}
     .heroImg img{
       width:100%;
       border-radius:16px;
@@ -119,8 +116,8 @@
       text-align:center;
       background:#fff;
     }
-    .iconCard img{width:48px; height:48px; object-fit:contain; display:block; margin:0 auto 6px}
-    .iconCard .t{font-weight:800; font-size:12px; color:#22304a}
+    .iconCard svg{display:block; margin:0 auto 6px}
+    .iconCard .t{font-weight:900; font-size:12px; color:#22304a}
     .iconCard .d{font-size:11px; color:#5d6a7f; margin-top:4px; line-height:1.25}
 
     .deal{
@@ -141,6 +138,7 @@
       font-size:13px;
     }
     .deal .dealTop span{color:var(--green)}
+
     .timerBox{
       padding:10px 14px 0;
       text-align:center;
@@ -163,6 +161,7 @@
     }
     .tNum{font-size:26px; font-weight:950; letter-spacing:.5px; color:#eaffd7}
     .tLbl{font-size:10px; color:rgba(234,255,215,.78); margin-top:2px; font-weight:800; text-transform:uppercase}
+
     .form{
       padding:12px 14px 14px;
       display:grid;
@@ -203,6 +202,7 @@
       color:rgba(243,247,255,.75);
       font-size:11px;
       margin-top:2px;
+      line-height:1.35;
     }
     .stock{
       display:flex;
@@ -215,9 +215,7 @@
     }
     .stock b{color:#fff}
 
-    .section{
-      padding:16px 12px 0;
-    }
+    .section{padding:16px 12px 0}
     .h2{
       text-align:center;
       font-weight:950;
@@ -232,6 +230,7 @@
       font-size:12px;
       color:#5d6a7f;
       margin:-6px 0 12px;
+      line-height:1.35;
     }
 
     .slider{
@@ -259,6 +258,7 @@
     }
     .navBtn.left{left:10px}
     .navBtn.right{right:10px}
+
     .txtBlock{
       padding:12px;
       border:1px solid #dbe3ef;
@@ -271,14 +271,6 @@
     }
     .txtBlock b{background:rgba(99,195,22,.18); padding:0 4px; border-radius:6px}
 
-    .video{
-      border-radius:16px;
-      overflow:hidden;
-      border:1px solid #dbe3ef;
-      background:#000;
-    }
-    .video iframe{width:100%; height:220px; border:0; display:block}
-
     .benefits{
       display:grid;
       gap:10px;
@@ -290,13 +282,17 @@
       background:#111722;
       color:#fff;
     }
-    .bCard img{width:100%; display:block}
+    .bCard img{
+      width:100%;
+      display:block;
+      background:#0b0f16;
+    }
     .bText{padding:12px}
     .bTitle{font-weight:950; margin:0 0 6px; font-size:14px}
     .bDesc{margin:0; font-size:12px; color:rgba(255,255,255,.78); line-height:1.4}
 
     .ctaMid{
-      margin:14px 12px 0;
+      margin:14px 0 0;
       padding:14px;
       border-radius:16px;
       background:linear-gradient(180deg,var(--green),var(--green2));
@@ -323,7 +319,7 @@
       color:#22304a;
     }
     .rowSpec:last-child{border-bottom:none}
-    .rowSpec .k{font-weight:800; color:#1b2a44}
+    .rowSpec .k{font-weight:900; color:#1b2a44}
     .rowSpec .v{color:#5d6a7f; text-align:right}
 
     .reviews{
@@ -347,10 +343,7 @@
       border:1px solid #dbe3ef;
       background:#fff;
     }
-    .ship .grid{
-      display:grid;
-      grid-template-columns: 1fr 1fr;
-    }
+    .ship .grid{display:grid; grid-template-columns: 1fr 1fr}
     .ship .cell{
       padding:12px;
       border-right:1px solid #dbe3ef;
@@ -366,8 +359,24 @@
       color:#5d6a7f;
       font-size:11px;
       text-align:center;
+      line-height:1.35;
     }
-    .links a{color:#2f5bd3}
+    footer a{color:#2f5bd3}
+
+    .smallHint{
+      font-size:11px;
+      color:#5d6a7f;
+      text-align:center;
+      margin-top:10px;
+      line-height:1.35;
+    }
+    .smallHint code{
+      background:#f2f6fb;
+      border:1px solid #dbe3ef;
+      padding:1px 6px;
+      border-radius:8px;
+      font-weight:700;
+    }
   </style>
 </head>
 
@@ -375,7 +384,7 @@
   <div class="wrap">
     <div class="top">
       <h1>Беспроводные наушники M25</h1>
-      <div class="sub">№1 в рейтинге “цена/качество” (по отзывам покупателей)</div>
+      <div class="sub">LED-дисплей • Bluetooth 5.3 • IPX7 • кейс 2000 мАч</div>
     </div>
 
     <div class="heroImg">
@@ -389,7 +398,7 @@
       </div>
       <div class="pSale">
         <div class="big">SALE</div>
-        <div class="pct">-38%</div>
+        <div class="pct" id="salePct">-38%</div>
       </div>
       <div class="pNew">
         <div class="lab">Цена сегодня</div>
@@ -397,24 +406,34 @@
       </div>
     </div>
 
+    <!-- ИКОНКИ (SVG, чтобы всегда работало) -->
     <div class="icons">
       <div class="iconCard">
-        <img alt="Батарея" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Battery_icon.svg/256px-Battery_icon.svg.png">
+        <svg viewBox="0 0 24 24" width="48" height="48" aria-hidden="true" style="fill:#2f7f10">
+          <path d="M16 7H8V5h8v2zm3 3v8a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3v-8a3 3 0 0 1 3-3h9a3 3 0 0 1 3 3zm-2 0a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-8zm4 2v4h-2v-4h2z"/>
+        </svg>
         <div class="t">Долгая работа</div>
         <div class="d">Кейс 2000 мАч — удобно в дороге</div>
       </div>
+
       <div class="iconCard">
-        <img alt="Звук" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Audio-volume-high-symbolic.svg/256px-Audio-volume-high-symbolic.svg.png">
+        <svg viewBox="0 0 24 24" width="48" height="48" aria-hidden="true" style="fill:#2f7f10">
+          <path d="M3 10v4h3l4 4V6L6 10H3zm13.5 2a4.5 4.5 0 0 0-2.25-3.9v7.8A4.5 4.5 0 0 0 16.5 12zm0-9.5v2.2A9 9 0 0 1 21 12a9 9 0 0 1-4.5 7.3v2.2A11 11 0 0 0 23 12 11 11 0 0 0 16.5 2.5z"/>
+        </svg>
         <div class="t">Чистый звук</div>
         <div class="d">Стерео + уверенные басы</div>
       </div>
+
       <div class="iconCard">
-        <img alt="Гарантия" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Emblem-important.svg/240px-Emblem-important.svg.png">
+        <svg viewBox="0 0 24 24" width="48" height="48" aria-hidden="true" style="fill:#2f7f10">
+          <path d="M12 2l7 4v6c0 5-3 9-7 10-4-1-7-5-7-10V6l7-4zm-1 13l6-6-1.4-1.4L11 12.2 8.4 9.6 7 11l4 4z"/>
+        </svg>
         <div class="t">Гарантия</div>
         <div class="d">14 дней на проверку</div>
       </div>
     </div>
 
+    <!-- Блок заказа -->
     <div class="deal" id="order">
       <div class="dealTop">Только сегодня: скидка на заказ — <span>успей оформить</span></div>
 
@@ -429,24 +448,28 @@
 
       <form class="form" id="orderForm">
         <div class="in">
-          <svg viewBox="0 0 24 24"><path d="M12 12a4 4 0 1 0-4-4 4 4 0 0 0 4 4zm0 2c-4.42 0-8 2.24-8 5v1h16v-1c0-2.76-3.58-5-8-5z"/></svg>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 12a4 4 0 1 0-4-4 4 4 0 0 0 4 4zm0 2c-4.42 0-8 2.24-8 5v1h16v-1c0-2.76-3.58-5-8-5z"/></svg>
           <input name="name" id="name" placeholder="Введите ваше имя" required>
         </div>
         <div class="in">
-          <svg viewBox="0 0 24 24"><path d="M20 15.5a12.17 12.17 0 0 1-3.86-.61 1 1 0 0 0-1 .24l-2.2 2.2a15.06 15.06 0 0 1-6.27-6.27l2.2-2.2a1 1 0 0 0 .24-1A12.17 12.17 0 0 1 8.5 4 1 1 0 0 0 7.5 3H4a1 1 0 0 0-1 1A17 17 0 0 0 20 21a1 1 0 0 0 1-1v-3.5a1 1 0 0 0-1-1z"/></svg>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 15.5a12.17 12.17 0 0 1-3.86-.61 1 1 0 0 0-1 .24l-2.2 2.2a15.06 15.06 0 0 1-6.27-6.27l2.2-2.2a1 1 0 0 0 .24-1A12.17 12.17 0 0 1 8.5 4 1 1 0 0 0 7.5 3H4a1 1 0 0 0-1 1A17 17 0 0 0 20 21a1 1 0 0 0 1-1v-3.5a1 1 0 0 0-1-1z"/></svg>
           <input name="phone" id="phone" placeholder="Введите ваш телефон" required>
         </div>
 
         <button class="btn" type="submit">Оформить заказ</button>
 
         <div class="stock">⚠️ Количество по акции: <b id="stock">12</b> шт.</div>
-        <div class="fine">Нажимая «Оформить заказ», вы соглашаетесь на обработку данных для связи.</div>
+        <div class="fine">
+          Нажимая «Оформить заказ», вы соглашаетесь на обработку данных для связи.
+          <br/>Заявка отправится на email (можно заменить на Telegram/CRM/Sheets).
+        </div>
       </form>
     </div>
 
+    <!-- Фото-слайдер -->
     <div class="section">
-      <div class="h2">Ваши идеальные Bluetooth-наушники</div>
-      <div class="note">Листай фото — и смотри детали.</div>
+      <div class="h2">Фото товара</div>
+      <div class="note">Листай стрелками — смотри детали.</div>
 
       <div class="slider" id="slider">
         <div class="slide">
@@ -462,29 +485,24 @@
       </div>
     </div>
 
-    <div class="section">
-      <div class="h2">Видеообзор</div>
-      <div class="note">Можно заменить на свой ролик/отзыв.</div>
-      <div class="video">
-        <!-- Замени VIDEO_ID на свой ролик (YouTube) -->
-        <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="Видеообзор" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-    </div>
-
+    <!-- Преимущества (локальные картинки) -->
     <div class="section">
       <div class="h2">Преимущества M25</div>
+      <div class="note">
+        Залей 3 картинки в папку <code>img/</code> (benefit-1.webp, benefit-2.webp, benefit-3.webp) — и они будут отображаться стабильно.
+      </div>
 
       <div class="benefits">
         <div class="bCard">
-          <img src="https://www.daraz.pk/products/m25-damix-tws-gaming-headphones-true-wireless-bluetooth-53-earbuds-earphones-with-touch-control-deep-bass-hi-fi-stereo-sound-low-latency-gaming-mode-noise-reduction-mic-led-digital-display-charging-case-long-battery-life-waterproof-sweatproo-i897939424.html" alt="Power bank кейс (пример)">
+          <img src="img/benefit-1.webp" alt="Кейс-PowerBank" onerror="this.style.display='none'">
           <div class="bText">
             <div class="bTitle">Кейс-PowerBank</div>
-            <p class="bDesc">Большая ёмкость помогает дольше оставаться на связи и слушать музыку без подзарядки.</p>
+            <p class="bDesc">Большая ёмкость — удобно в дороге и на работе. Заряд под рукой.</p>
           </div>
         </div>
 
         <div class="bCard">
-          <img src="https://www.joom.com/en/products/5d352d8528fc7101019f6199" alt="LED дисплей (пример)">
+          <img src="img/benefit-2.webp" alt="LED-дисплей" onerror="this.style.display='none'">
           <div class="bText">
             <div class="bTitle">LED-дисплей заряда</div>
             <p class="bDesc">Видно заряд кейса и наушников — меньше сюрпризов, больше контроля.</p>
@@ -492,10 +510,10 @@
         </div>
 
         <div class="bCard">
-          <img src="https://www.daraz.pk/products/m25-tws-true-wireless-bluetooth-53-earbuds-hifi-stereo-sound-bluetooth-earbuds-noise-cancelling-wireless-earbuds-charging-case-i413515501.html" alt="M25 фото (пример)">
+          <img src="img/benefit-3.webp" alt="Bluetooth 5.3" onerror="this.style.display='none'">
           <div class="bText">
             <div class="bTitle">Стабильная связь</div>
-            <p class="bDesc">Подходит для видео, звонков и музыки — меньше задержек, комфортнее каждый день.</p>
+            <p class="bDesc">Bluetooth 5.3 — меньше задержек и стабильнее подключение.</p>
           </div>
         </div>
       </div>
@@ -503,6 +521,7 @@
       <a class="ctaMid" href="#order">Заказать сейчас за <span id="priceMid">249</span> грн</a>
     </div>
 
+    <!-- Характеристики -->
     <div class="section">
       <div class="h2">Характеристики</div>
       <div class="spec">
@@ -515,24 +534,26 @@
       </div>
     </div>
 
+    <!-- Отзывы -->
     <div class="section">
       <div class="h2">Отзывы покупателей</div>
       <div class="reviews">
         <div class="rev">
           <div class="revTop"><div class="revName">Олег, Киев</div><div class="revStars">★★★★★</div></div>
-          <p>Звук отличный за свои деньги. Дисплей очень удобен, заряд видно сразу.</p>
+          <p>За свои деньги топ. Дисплей удобный, заряд видно сразу. Связь держит нормально.</p>
         </div>
         <div class="rev">
           <div class="revTop"><div class="revName">Марина, Днепр</div><div class="revStars">★★★★★</div></div>
-          <p>Пришли быстро, сидят удобно. Для прогулок и спорта то, что надо.</p>
+          <p>Пришли быстро. Сидят удобно, для спорта ок. За 249 грн супер.</p>
         </div>
         <div class="rev">
           <div class="revTop"><div class="revName">Андрей, Львов</div><div class="revStars">★★★★☆</div></div>
-          <p>Связь стабильная. За 249 грн вообще супер.</p>
+          <p>Звук достойный, микрофон норм. Покупкой доволен.</p>
         </div>
       </div>
     </div>
 
+    <!-- Доставка и оплата -->
     <div class="section">
       <div class="h2">Доставка и оплата</div>
       <div class="ship">
@@ -543,7 +564,7 @@
           </div>
           <div class="cell">
             <b>Оплата</b>
-            <span>Наложенный платёж (при получении) или онлайн (если подключите).</span>
+            <span>Наложенный платёж (при получении) или онлайн (при необходимости).</span>
           </div>
           <div class="cell">
             <b>Доставка</b>
@@ -555,21 +576,26 @@
           </div>
         </div>
       </div>
+
+      <div class="smallHint">
+        Хочешь, чтобы заявки приходили <b>не на email</b>, а в Telegram/Google Sheets — скажи, сделаю без сервера.
+      </div>
     </div>
 
+    <!-- Повторный CTA -->
     <div class="section" style="padding-bottom:0">
       <div class="deal">
         <div class="dealTop">Повторить заказ по акции — <span>оформите заявку</span></div>
         <div class="form" style="padding-top:10px">
           <a class="btn" href="#order" style="display:block; text-align:center;">Оформить заказ за 249 грн</a>
-          <div class="fine">Если нужно — добавлю Telegram/CRM/Sheets вместо mailto.</div>
+          <div class="fine">Если нужно — добавлю автоотправку в Telegram/CRM/Sheets.</div>
         </div>
       </div>
     </div>
 
     <footer>
       <div>© <span id="year"></span> • Одностраничный лендинг</div>
-      <div class="links" style="margin-top:6px;">
+      <div style="margin-top:6px;">
         <a href="#" onclick="alert('Добавь свою страницу политики/оферты');return false;">Политика конфиденциальности</a>
         ·
         <a href="#" onclick="alert('Добавь свою страницу оферты');return false;">Публичная оферта</a>
@@ -583,23 +609,26 @@
       price: 249,
       oldPrice: 399,
       stock: 12,
-      // Таймер: конец акции сегодня в 23:59 по Киеву (локальное время браузера)
+      // Таймер: до 23:59 сегодня (время браузера)
       timerEnd: (() => {
         const d = new Date();
         d.setHours(23,59,59,999);
         return d.getTime();
       })(),
-      // Форма: куда отправлять (пока mailto). Можно заменить на Telegram/Sheets.
+      // Куда отправлять заявки (пока email)
       mailTo: "rivcont.sales.info@gmail.com"
     };
 
-    // ====== PRICE SET ======
+    // ====== PRICE/SALE ======
     function setText(id, v){ const el=document.getElementById(id); if(el) el.textContent = v; }
+    const save = Math.max(0, CONFIG.oldPrice - CONFIG.price);
+    const pct = (CONFIG.oldPrice > 0) ? Math.round(save * 100 / CONFIG.oldPrice) : 0;
+
     setText("priceNow", CONFIG.price);
     setText("priceMid", CONFIG.price);
     setText("oldPrice", CONFIG.oldPrice);
-    setText("save", Math.max(0, CONFIG.oldPrice - CONFIG.price));
     setText("stock", CONFIG.stock);
+    setText("salePct", `-${pct}%`);
     setText("year", new Date().getFullYear());
 
     // ====== TIMER ======
@@ -622,9 +651,7 @@
     const SLIDES = [
       "https://rivcont.com/images/thumbnails/detailed/3747/c83f7af604fcf0f2b7c90981a3b723a4.webp",
       "https://rivcont.com/images/thumbnails/detailed/3747/0e798910113062d65d41f4bace6cbc3a.webp",
-      // “Маркетинговые” картинки (как у примеров) — можно заменить/скачать локально
-      "https://www.daraz.pk/products/m25-tws-true-wireless-bluetooth-53-earbuds-hifi-stereo-sound-bluetooth-earbuds-noise-cancelling-wireless-earbuds-charging-case-i413515501.html",
-      "https://www.joom.com/en/products/5d352d8528fc7101019f6199"
+      "https://rivcont.com/images/thumbnails/detailed/3747/fbb2f15b2a4a8a457c7b7a38afddc875.webp"
     ];
     let idx = 0;
     const slideImg = document.getElementById("slideImg");
@@ -645,8 +672,10 @@
 
       const subject = encodeURIComponent(`Заявка M25 (${CONFIG.price} грн)`);
       const body = encodeURIComponent(
-        `Товар: Беспроводные наушники M25\nЦена: ${CONFIG.price} грн (было ${CONFIG.oldPrice} грн)\n\n` +
-        `Имя: ${name}\nТелефон: ${phone}\n\n` +
+        `Товар: Беспроводные наушники M25\n` +
+        `Цена: ${CONFIG.price} грн (было ${CONFIG.oldPrice} грн)\n\n` +
+        `Имя: ${name}\n` +
+        `Телефон: ${phone}\n\n` +
         `Источник: лендинг\n`
       );
       window.location.href = `mailto:${CONFIG.mailTo}?subject=${subject}&body=${body}`;
