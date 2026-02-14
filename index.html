@@ -1,837 +1,656 @@
 <!doctype html>
 <html lang="ru">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Беспроводные наушники M25 — 249 грн | Bluetooth 5.3, LED-дисплей, IPX7</title>
-  <meta name="description" content="M25: Bluetooth 5.3, LED-дисплей заряда, ANC шумоподавление, IPX7, кейс 2000 мАч. Доставка по Украине. Оплата при получении." />
-  <meta name="theme-color" content="#0b1020" />
-
-  <!-- Open Graph -->
-  <meta property="og:title" content="Беспроводные наушники M25 — 249 грн" />
-  <meta property="og:description" content="Bluetooth 5.3 • LED-дисплей • IPX7 • Кейс 2000 мАч. Доставка по Украине, оплата при получении." />
-  <meta property="og:type" content="product" />
-  <meta property="og:image" content="https://rivcont.com/images/thumbnails/detailed/3747/fbb2f15b2a4a8a457c7b7a38afddc875.webp" />
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Беспроводные наушники M25 — 249 грн | LED-дисплей, Bluetooth 5.3, IPX7</title>
+  <meta name="description" content="Беспроводные наушники M25: LED-дисплей, Bluetooth 5.3, IPX7, кейс 2000 мАч. Цена по акции 249 грн. Доставка по Украине, оплата при получении."/>
+  <meta property="og:title" content="Беспроводные наушники M25 — 249 грн"/>
+  <meta property="og:description" content="LED-дисплей • Bluetooth 5.3 • IPX7 • Кейс 2000 мАч. Доставка по Украине."/>
+  <meta property="og:type" content="product"/>
+  <meta property="og:image" content="https://rivcont.com/images/thumbnails/detailed/3747/fbb2f15b2a4a8a457c7b7a38afddc875.webp"/>
+  <meta name="theme-color" content="#63c316"/>
 
   <style>
     :root{
-      --bg:#070a14;
-      --card:#0d1326;
-      --card2:#0b1122;
-      --text:#eaf0ff;
-      --muted:#aab6dc;
-      --line:rgba(255,255,255,.10);
-      --accent:#7c5cff;
-      --accent2:#23c7a7;
-      --danger:#ff4d6d;
-      --good:#5fe3a1;
-      --shadow: 0 18px 50px rgba(0,0,0,.45);
-      --r:20px;
+      --green:#63c316;
+      --green2:#4aa80c;
+      --dark:#12161f;
+      --dark2:#0c1016;
+      --card:#1a2130;
+      --txt:#f3f7ff;
+      --muted:#c9d3e6;
+      --line:rgba(255,255,255,.12);
+      --danger:#ff3d57;
+      --shadow:0 16px 50px rgba(0,0,0,.45);
+      --r:18px;
     }
     *{box-sizing:border-box}
-    html,body{height:100%}
     body{
       margin:0;
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", sans-serif;
-      color:var(--text);
-      background:
-        radial-gradient(1100px 700px at 12% 10%, rgba(124,92,255,.32), transparent 55%),
-        radial-gradient(900px 650px at 86% 25%, rgba(35,199,167,.22), transparent 60%),
-        radial-gradient(600px 500px at 35% 95%, rgba(255,77,109,.12), transparent 55%),
-        var(--bg);
-      line-height:1.45;
+      font-family: Arial, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background:#e9eef4;
+      color:#111;
     }
-    a{color:inherit}
-    .container{width:min(1140px, 92vw); margin:0 auto}
-    .topbar{
-      position:sticky; top:0; z-index:50;
-      backdrop-filter: blur(12px);
-      background: rgba(7,10,20,.62);
-      border-bottom:1px solid var(--line);
+    a{color:inherit; text-decoration:none}
+    .wrap{max-width:420px; margin:0 auto; background:#fff; min-height:100vh}
+    .top{
+      background:linear-gradient(180deg,var(--green),var(--green2));
+      color:#fff;
+      text-align:center;
+      padding:18px 14px 12px;
+      position:relative;
     }
-    .topbar__inner{
-      padding:12px 0;
-      display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap;
-    }
-    .brand{display:flex; align-items:center; gap:10px}
-    .logo{
-      width:36px; height:36px; border-radius:14px;
-      background: linear-gradient(135deg, var(--accent), var(--accent2));
-      box-shadow: 0 14px 40px rgba(124,92,255,.25);
-    }
-    .brand b{font-weight:900; letter-spacing:.2px}
-    .brand small{display:block; color:var(--muted); font-weight:650; margin-top:2px}
-    .right{display:flex; gap:10px; align-items:center; flex-wrap:wrap; justify-content:flex-end}
-    .pill{
-      display:inline-flex; align-items:center; gap:8px;
-      padding:8px 10px;
-      border:1px solid var(--line);
+    .top h1{margin:0; font-size:26px; font-weight:900; letter-spacing:.2px; text-transform:uppercase}
+    .top .sub{
+      margin:8px auto 0;
+      display:inline-block;
+      background:rgba(255,255,255,.14);
+      padding:6px 10px;
       border-radius:999px;
-      background: rgba(255,255,255,.04);
-      color:var(--muted);
-      font-size:13px;
-      white-space:nowrap;
-    }
-    .pill b{color:var(--text); font-weight:800}
-    .btn{
-      display:inline-flex; align-items:center; justify-content:center; gap:10px;
-      padding:12px 16px;
-      border-radius:14px;
-      border:1px solid transparent;
-      background: rgba(255,255,255,.06);
-      color:var(--text);
-      font-weight:850;
-      cursor:pointer;
-      transition: transform .12s ease, background .12s ease, border-color .12s ease;
-      text-decoration:none;
-      user-select:none;
-    }
-    .btn:hover{transform: translateY(-1px); background: rgba(255,255,255,.09)}
-    .btn:active{transform: translateY(0)}
-    .btn--primary{
-      background: linear-gradient(135deg, var(--accent), #9a7bff);
-      box-shadow: 0 16px 44px rgba(124,92,255,.28);
-    }
-    .btn--primary:hover{background: linear-gradient(135deg, #8b70ff, #a88cff)}
-    .btn--ghost{background: rgba(255,255,255,.03); border-color: var(--line)}
-    .btn--small{padding:10px 12px; border-radius:12px; font-size:14px}
-    .card{
-      background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03));
-      border:1px solid var(--line);
-      border-radius: var(--r);
-      box-shadow: var(--shadow);
-    }
-
-    header.hero{padding:28px 0 10px}
-    .hero__grid{
-      display:grid;
-      grid-template-columns: 1.05fr .95fr;
-      gap:14px;
-      align-items:stretch;
-    }
-    @media (max-width: 980px){ .hero__grid{grid-template-columns:1fr} }
-    .hero__left{padding:22px}
-    .badge{
-      display:inline-flex; align-items:center; gap:10px;
-      padding:8px 10px;
-      border-radius:999px;
-      background: rgba(35,199,167,.10);
-      border:1px solid rgba(35,199,167,.25);
-      color:#c9fff5;
-      font-weight:800;
-      font-size:13px;
-    }
-    h1{
-      margin:12px 0 10px;
-      font-size: clamp(28px, 4vw, 46px);
-      line-height:1.08;
-      letter-spacing:-.6px;
-    }
-    .sub{
-      margin:0 0 14px;
-      color:var(--muted);
-      font-size: clamp(15px, 1.65vw, 18px);
-      max-width: 60ch;
-    }
-
-    .pricebox{
-      display:flex; align-items:flex-end; gap:14px; flex-wrap:wrap;
-      padding:14px;
-      border-radius:18px;
-      background: rgba(0,0,0,.18);
-      border:1px solid var(--line);
-      margin-top:12px;
-    }
-    .price{
-      font-size:44px;
-      font-weight:950;
-      letter-spacing:-.8px;
-      line-height:1;
-    }
-    .price small{font-size:16px; font-weight:850; color:var(--muted)}
-    .old{color:rgba(255,255,255,.55); text-decoration: line-through; font-weight:800}
-    .save{
-      display:inline-flex; align-items:center; gap:8px;
-      color:#ffe8ee;
-      background: rgba(255,77,109,.12);
-      border:1px solid rgba(255,77,109,.28);
-      padding:8px 10px;
-      border-radius:999px;
-      font-weight:900;
-      font-size:13px;
-    }
-
-    .bullets{
-      display:grid; grid-template-columns: 1fr 1fr;
-      gap:10px; margin:14px 0 0;
-    }
-    @media (max-width: 560px){ .bullets{grid-template-columns:1fr} }
-    .bullet{
-      padding:12px 12px;
-      border-radius:16px;
-      background: rgba(255,255,255,.04);
-      border:1px solid var(--line);
-      color:var(--muted);
-      font-size:14px;
-    }
-    .bullet b{color:var(--text)}
-
-    .cta{
-      display:flex; gap:10px; flex-wrap:wrap; align-items:center;
-      margin-top:16px;
-    }
-
-    .hero__right{padding:16px; display:flex; flex-direction:column; gap:12px}
-    .media{
-      border-radius:18px;
-      border:1px solid var(--line);
-      overflow:hidden;
-      background: rgba(0,0,0,.20);
-    }
-    .media img{width:100%; height:auto; display:block; object-fit:cover; aspect-ratio: 4/3}
-    .thumbs{display:flex; gap:10px; justify-content:center}
-    .thumb{
-      width:82px; height:60px;
-      border-radius:14px;
-      border:1px solid var(--line);
-      overflow:hidden;
-      background: rgba(255,255,255,.03);
-      cursor:pointer;
-      opacity:.86;
-      transition: transform .12s ease, opacity .12s ease, border-color .12s ease;
-    }
-    .thumb:hover{transform: translateY(-1px); opacity:1}
-    .thumb.active{border-color: rgba(124,92,255,.75); opacity:1}
-    .thumb img{width:100%; height:100%; object-fit:cover}
-
-    .trust{
-      display:grid; grid-template-columns: repeat(4,1fr);
-      gap:10px;
-    }
-    @media (max-width: 980px){ .trust{grid-template-columns: repeat(2,1fr)} }
-    .trust .t{
-      padding:12px;
-      border-radius:16px;
-      background: rgba(255,255,255,.03);
-      border:1px solid var(--line);
-    }
-    .trust .t b{display:block; margin-bottom:3px}
-    .trust .t span{color:var(--muted); font-size:13px}
-
-    section{padding:24px 0}
-    .h2{
-      margin:0 0 6px;
-      font-size: 28px;
-      letter-spacing:-.35px;
-    }
-    .desc{margin:0 0 16px; color:var(--muted); max-width: 78ch}
-
-    .grid3{display:grid; grid-template-columns: repeat(3, 1fr); gap:12px}
-    @media (max-width: 980px){ .grid3{grid-template-columns:1fr} }
-
-    .feat{
-      padding:16px;
-      border-radius:18px;
-      background: rgba(255,255,255,.03);
-      border:1px solid var(--line);
-    }
-    .feat h3{margin:10px 0 6px; font-size:16px}
-    .feat p{margin:0; color:var(--muted); font-size:14px}
-    .ico{
-      width:42px; height:42px; border-radius:16px;
-      display:grid; place-items:center;
-      background: rgba(124,92,255,.12);
-      border:1px solid rgba(124,92,255,.25);
-    }
-    .ico svg{width:22px; height:22px; fill:#dcd3ff}
-
-    .compare{
-      display:grid; grid-template-columns: 1fr 1fr;
-      gap:12px;
-    }
-    @media (max-width: 980px){ .compare{grid-template-columns:1fr} }
-    .list{
-      padding:16px;
-      border-radius:18px;
-      background: rgba(255,255,255,.03);
-      border:1px solid var(--line);
-    }
-    .li{
-      display:flex; gap:10px; align-items:flex-start;
-      padding:10px 0;
-      border-bottom:1px dashed rgba(255,255,255,.12);
-    }
-    .li:last-child{border-bottom:none}
-    .mark{
-      width:22px; height:22px; border-radius:9px; flex:0 0 auto;
-      display:grid; place-items:center; font-weight:950;
-      border:1px solid rgba(95,227,161,.28);
-      background: rgba(95,227,161,.10);
-      color:#caffea;
-      margin-top:2px;
-    }
-    .xmark{
-      border:1px solid rgba(255,77,109,.28);
-      background: rgba(255,77,109,.10);
-      color:#ffd1db;
-    }
-    .li b{display:block}
-    .li span{display:block; color:var(--muted); font-size:13px; margin-top:2px}
-
-    .reviews{
-      display:grid; grid-template-columns: repeat(3, 1fr);
-      gap:12px;
-    }
-    @media (max-width: 980px){ .reviews{grid-template-columns:1fr} }
-    .review{
-      padding:16px;
-      border-radius:18px;
-      border:1px solid var(--line);
-      background: rgba(255,255,255,.03);
-    }
-    .review .name{font-weight:900}
-    .stars{color:#ffd36b; letter-spacing:1px}
-    .review p{margin:8px 0 0; color:var(--muted); font-size:14px}
-
-    .faq{
-      display:grid; grid-template-columns: 1.15fr .85fr;
-      gap:12px;
-      align-items:start;
-    }
-    @media (max-width: 980px){ .faq{grid-template-columns:1fr} }
-    details{
-      border:1px solid var(--line);
-      background: rgba(255,255,255,.03);
-      border-radius:18px;
-      padding:12px 14px;
-    }
-    details + details{margin-top:10px}
-    summary{
-      cursor:pointer;
-      font-weight:900;
-      list-style:none;
-    }
-    summary::-webkit-details-marker{display:none}
-    details p{margin:10px 0 0; color:var(--muted); font-size:14px}
-
-    .order{
-      display:grid; grid-template-columns: 1fr 1fr;
-      gap:12px;
-      padding:18px;
-    }
-    @media (max-width: 980px){ .order{grid-template-columns:1fr} }
-
-    .how{padding:18px}
-    .steps{display:grid; gap:10px; margin-top:10px}
-    .step{
-      display:flex; gap:10px; align-items:flex-start;
-      padding:12px;
-      border-radius:18px;
-      background: rgba(0,0,0,.18);
-      border:1px solid var(--line);
-    }
-    .n{
-      width:28px; height:28px; border-radius:10px; flex:0 0 auto;
-      display:grid; place-items:center;
-      font-weight:950;
-      color:#c9fff5;
-      background: rgba(35,199,167,.12);
-      border:1px solid rgba(35,199,167,.25);
-      margin-top:1px;
-    }
-    .step span{display:block; color:var(--muted); font-size:13px; margin-top:2px}
-
-    form{
-      padding:18px;
-      border-radius:18px;
-      border:1px solid var(--line);
-      background: rgba(255,255,255,.03);
-    }
-    label{display:block; font-size:13px; color:rgba(231,240,255,.82); font-weight:900; margin:0 0 6px}
-    input, textarea, select{
-      width:100%;
-      padding:12px;
-      border-radius:14px;
-      border:1px solid rgba(255,255,255,.12);
-      background: rgba(0,0,0,.22);
-      color:var(--text);
-      outline:none;
-      font-size:14px;
-    }
-    input:focus, textarea:focus, select:focus{border-color: rgba(124,92,255,.55)}
-    .row{display:grid; grid-template-columns: 1fr 1fr; gap:10px}
-    @media (max-width: 560px){ .row{grid-template-columns:1fr} }
-    .hint{color:var(--muted); font-size:12px; margin:8px 0 0}
-    .mini{
-      margin-top:10px;
-      color:rgba(231,240,255,.7);
+      font-weight:700;
       font-size:12px;
     }
+    .heroImg{
+      padding:12px 12px 0;
+      background:#fff;
+    }
+    .heroImg img{
+      width:100%;
+      border-radius:16px;
+      border:1px solid #dbe3ef;
+      display:block;
+    }
+
+    .priceRow{
+      display:flex;
+      gap:10px;
+      align-items:stretch;
+      padding:10px 12px 12px;
+    }
+    .pOld,.pNew,.pSale{
+      flex:1;
+      border-radius:14px;
+      border:1px solid #dbe3ef;
+      background:#fff;
+      padding:10px 10px;
+      text-align:center;
+    }
+    .pOld .lab,.pNew .lab{font-size:12px; color:#5d6a7f; font-weight:700}
+    .pOld .val{
+      margin-top:6px;
+      font-size:20px;
+      font-weight:900;
+      text-decoration:line-through;
+      color:#22304a;
+    }
+    .pNew{
+      border-color:rgba(99,195,22,.35);
+      box-shadow:0 10px 28px rgba(99,195,22,.12);
+    }
+    .pNew .val{
+      margin-top:6px;
+      font-size:22px;
+      font-weight:950;
+      color:#0f2a13;
+    }
+    .pSale{
+      background:var(--danger);
+      border-color:rgba(255,61,87,.25);
+      color:#fff;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      gap:6px;
+    }
+    .pSale .big{font-size:14px; font-weight:900; letter-spacing:.6px}
+    .pSale .pct{font-size:22px; font-weight:950}
+
+    .icons{
+      display:grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap:10px;
+      padding:10px 12px 0;
+    }
+    .iconCard{
+      border:1px solid #dbe3ef;
+      border-radius:14px;
+      padding:10px;
+      text-align:center;
+      background:#fff;
+    }
+    .iconCard img{width:48px; height:48px; object-fit:contain; display:block; margin:0 auto 6px}
+    .iconCard .t{font-weight:800; font-size:12px; color:#22304a}
+    .iconCard .d{font-size:11px; color:#5d6a7f; margin-top:4px; line-height:1.25}
+
+    .deal{
+      margin:12px;
+      border-radius:16px;
+      overflow:hidden;
+      box-shadow:var(--shadow);
+      background:linear-gradient(180deg,var(--dark),var(--dark2));
+      color:var(--txt);
+      border:1px solid rgba(255,255,255,.08);
+    }
+    .deal .dealTop{
+      padding:12px 14px 8px;
+      text-align:center;
+      font-weight:900;
+      letter-spacing:.3px;
+      text-transform:uppercase;
+      font-size:13px;
+    }
+    .deal .dealTop span{color:var(--green)}
+    .timerBox{
+      padding:10px 14px 0;
+      text-align:center;
+      color:rgba(243,247,255,.85);
+      font-weight:700;
+      font-size:12px;
+    }
+    .timer{
+      display:flex;
+      justify-content:center;
+      gap:8px;
+      margin:10px 0 6px;
+    }
+    .tUnit{
+      width:72px;
+      border-radius:12px;
+      background:rgba(99,195,22,.12);
+      border:1px solid rgba(99,195,22,.35);
+      padding:8px 6px;
+    }
+    .tNum{font-size:26px; font-weight:950; letter-spacing:.5px; color:#eaffd7}
+    .tLbl{font-size:10px; color:rgba(234,255,215,.78); margin-top:2px; font-weight:800; text-transform:uppercase}
+    .form{
+      padding:12px 14px 14px;
+      display:grid;
+      gap:10px;
+    }
+    .in{
+      display:flex;
+      gap:10px;
+      align-items:center;
+      background:rgba(255,255,255,.06);
+      border:1px solid rgba(255,255,255,.10);
+      border-radius:999px;
+      padding:10px 12px;
+    }
+    .in svg{width:18px; height:18px; fill:rgba(243,247,255,.75)}
+    .in input{
+      width:100%;
+      border:none;
+      outline:none;
+      background:transparent;
+      color:var(--txt);
+      font-size:14px;
+    }
+    .btn{
+      border:none;
+      cursor:pointer;
+      padding:14px 14px;
+      border-radius:999px;
+      font-weight:950;
+      letter-spacing:.4px;
+      text-transform:uppercase;
+      background:linear-gradient(180deg,var(--green),var(--green2));
+      color:#0c160c;
+      box-shadow:0 14px 34px rgba(99,195,22,.28);
+    }
+    .fine{
+      text-align:center;
+      color:rgba(243,247,255,.75);
+      font-size:11px;
+      margin-top:2px;
+    }
+    .stock{
+      display:flex;
+      gap:8px;
+      align-items:center;
+      justify-content:center;
+      padding-top:4px;
+      font-size:11px;
+      color:rgba(243,247,255,.78);
+    }
+    .stock b{color:#fff}
+
+    .section{
+      padding:16px 12px 0;
+    }
+    .h2{
+      text-align:center;
+      font-weight:950;
+      text-transform:uppercase;
+      color:#0d1a33;
+      margin:0 0 10px;
+      font-size:18px;
+      letter-spacing:.3px;
+    }
+    .note{
+      text-align:center;
+      font-size:12px;
+      color:#5d6a7f;
+      margin:-6px 0 12px;
+    }
+
+    .slider{
+      position:relative;
+      border-radius:16px;
+      border:1px solid #dbe3ef;
+      overflow:hidden;
+      background:#fff;
+    }
+    .slide img{width:100%; display:block; height:auto}
+    .navBtn{
+      position:absolute;
+      top:50%;
+      transform:translateY(-50%);
+      width:40px; height:40px;
+      border:none;
+      border-radius:12px;
+      background:rgba(255,61,87,.92);
+      color:#fff;
+      font-weight:950;
+      cursor:pointer;
+      display:grid;
+      place-items:center;
+      box-shadow:0 10px 28px rgba(0,0,0,.25);
+    }
+    .navBtn.left{left:10px}
+    .navBtn.right{right:10px}
+    .txtBlock{
+      padding:12px;
+      border:1px solid #dbe3ef;
+      border-radius:16px;
+      background:#fff;
+      margin-top:10px;
+      color:#22304a;
+      font-size:13px;
+      line-height:1.45;
+    }
+    .txtBlock b{background:rgba(99,195,22,.18); padding:0 4px; border-radius:6px}
+
+    .video{
+      border-radius:16px;
+      overflow:hidden;
+      border:1px solid #dbe3ef;
+      background:#000;
+    }
+    .video iframe{width:100%; height:220px; border:0; display:block}
+
+    .benefits{
+      display:grid;
+      gap:10px;
+    }
+    .bCard{
+      border-radius:16px;
+      overflow:hidden;
+      border:1px solid #dbe3ef;
+      background:#111722;
+      color:#fff;
+    }
+    .bCard img{width:100%; display:block}
+    .bText{padding:12px}
+    .bTitle{font-weight:950; margin:0 0 6px; font-size:14px}
+    .bDesc{margin:0; font-size:12px; color:rgba(255,255,255,.78); line-height:1.4}
+
+    .ctaMid{
+      margin:14px 12px 0;
+      padding:14px;
+      border-radius:16px;
+      background:linear-gradient(180deg,var(--green),var(--green2));
+      color:#0c160c;
+      text-align:center;
+      font-weight:950;
+      text-transform:uppercase;
+      letter-spacing:.3px;
+    }
+
+    .spec{
+      border-radius:16px;
+      border:1px solid #dbe3ef;
+      background:#fff;
+      padding:12px;
+    }
+    .rowSpec{
+      display:flex;
+      justify-content:space-between;
+      gap:10px;
+      padding:8px 0;
+      border-bottom:1px dashed #dbe3ef;
+      font-size:12px;
+      color:#22304a;
+    }
+    .rowSpec:last-child{border-bottom:none}
+    .rowSpec .k{font-weight:800; color:#1b2a44}
+    .rowSpec .v{color:#5d6a7f; text-align:right}
+
+    .reviews{
+      display:grid;
+      gap:10px;
+    }
+    .rev{
+      border:1px solid #dbe3ef;
+      border-radius:16px;
+      background:#fff;
+      padding:12px;
+    }
+    .revTop{display:flex; align-items:center; justify-content:space-between}
+    .revName{font-weight:950; color:#1b2a44}
+    .revStars{color:#ffb000; font-weight:900; letter-spacing:1px}
+    .rev p{margin:8px 0 0; color:#5d6a7f; font-size:12px; line-height:1.4}
+
+    .ship{
+      border-radius:16px;
+      overflow:hidden;
+      border:1px solid #dbe3ef;
+      background:#fff;
+    }
+    .ship .grid{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .ship .cell{
+      padding:12px;
+      border-right:1px solid #dbe3ef;
+      border-bottom:1px solid #dbe3ef;
+    }
+    .ship .cell:nth-child(2n){border-right:none}
+    .ship .cell:last-child,.ship .cell:nth-last-child(2){border-bottom:none}
+    .ship b{display:block; color:#1b2a44}
+    .ship span{display:block; color:#5d6a7f; font-size:12px; margin-top:4px; line-height:1.35}
 
     footer{
-      padding:24px 0 34px;
-      border-top:1px solid var(--line);
-      color:var(--muted);
-      margin-top:18px;
+      padding:14px 12px 24px;
+      color:#5d6a7f;
+      font-size:11px;
+      text-align:center;
     }
-    .footergrid{display:grid; grid-template-columns: 1fr 1fr; gap:12px}
-    @media (max-width: 980px){ .footergrid{grid-template-columns:1fr} }
-
-    .sticky{
-      position:fixed; left:0; right:0; bottom:0;
-      background: rgba(7,10,20,.66);
-      border-top:1px solid var(--line);
-      backdrop-filter: blur(12px);
-      padding:10px 0;
-      z-index:70;
-      display:none;
-    }
-    @media (max-width: 980px){ .sticky{display:block;} footer{padding-bottom:80px} }
-    .sticky__inner{display:flex; align-items:center; justify-content:space-between; gap:10px}
-    .sticky__p b{font-size:18px}
+    .links a{color:#2f5bd3}
   </style>
 </head>
 
 <body>
-  <div class="topbar">
-    <div class="container topbar__inner">
-      <div class="brand">
-        <div class="logo"></div>
-        <div>
-          <b>M25 • Беспроводные наушники</b>
-          <small>Доставка по Украине • Оплата при получении</small>
-        </div>
-      </div>
+  <div class="wrap">
+    <div class="top">
+      <h1>Беспроводные наушники M25</h1>
+      <div class="sub">№1 в рейтинге “цена/качество” (по отзывам покупателей)</div>
+    </div>
 
-      <div class="right">
-        <a class="pill" id="phoneTop" href="tel:+380675127045"><span>Тел:</span> <b>+380 (67) 512-70-45</b></a>
-        <a class="btn btn--primary btn--small" href="#order">Заказать</a>
+    <div class="heroImg">
+      <img src="https://rivcont.com/images/thumbnails/detailed/3747/fbb2f15b2a4a8a457c7b7a38afddc875.webp" alt="M25"/>
+    </div>
+
+    <div class="priceRow">
+      <div class="pOld">
+        <div class="lab">Обычная цена</div>
+        <div class="val"><span id="oldPrice">399</span> грн</div>
+      </div>
+      <div class="pSale">
+        <div class="big">SALE</div>
+        <div class="pct">-38%</div>
+      </div>
+      <div class="pNew">
+        <div class="lab">Цена сегодня</div>
+        <div class="val"><span id="priceNow">249</span> грн</div>
       </div>
     </div>
-  </div>
 
-  <header class="hero">
-    <div class="container hero__grid">
-      <div class="card hero__left">
-        <div class="badge">⚡ Скидка сегодня • отправим быстро</div>
-        <h1>Звук, звонки и комфорт каждый день — M25 с LED-дисплеем и Bluetooth 5.3</h1>
-        <p class="sub">
-          Наушники для города, спорта и поездок: стабильная связь, микрофон для звонков и удобный кейс.
-          Видишь заряд сразу — на дисплее.
-        </p>
-
-        <div class="pricebox" aria-label="Цена">
-          <div class="price"><span id="price">249</span> <small>грн</small></div>
-          <div>
-            <div class="old">Было: <span id="oldPrice">399</span> грн</div>
-            <div class="save">Экономия: <span id="save">150</span> грн</div>
-          </div>
-        </div>
-
-        <div class="bullets">
-          <div class="bullet"><b>Bluetooth 5.3</b> — стабильное соединение и меньше задержек</div>
-          <div class="bullet"><b>LED-дисплей</b> — заряд кейса всегда перед глазами</div>
-          <div class="bullet"><b>Кейс 2000 мАч</b> — удобно в дороге (можно как power bank)</div>
-          <div class="bullet"><b>IPX7</b> — защита от влаги для активного дня</div>
-        </div>
-
-        <div class="cta">
-          <a class="btn btn--primary" href="#order">Оформить заказ за <span id="priceCTA">249</span> грн</a>
-          <a class="btn btn--ghost" href="#why">Почему M25</a>
-        </div>
-
-        <div class="trust" style="margin-top:14px">
-          <div class="t"><b>Доставка</b><span>Новая Почта / Укрпочта</span></div>
-          <div class="t"><b>Оплата</b><span>Наложка или онлайн</span></div>
-          <div class="t"><b>Гарантия</b><span>14 дней на проверку</span></div>
-          <div class="t"><b>Совместимость</b><span>Android / iPhone / ноутбук</span></div>
-        </div>
+    <div class="icons">
+      <div class="iconCard">
+        <img alt="Батарея" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Battery_icon.svg/256px-Battery_icon.svg.png">
+        <div class="t">Долгая работа</div>
+        <div class="d">Кейс 2000 мАч — удобно в дороге</div>
       </div>
-
-      <div class="card hero__right">
-        <div class="media">
-          <img id="mainImg"
-               src="https://rivcont.com/images/thumbnails/detailed/3747/fbb2f15b2a4a8a457c7b7a38afddc875.webp"
-               alt="Наушники M25"
-               loading="eager" />
-        </div>
-
-        <div class="thumbs" aria-label="Фото">
-          <div class="thumb active" data-img="https://rivcont.com/images/thumbnails/detailed/3747/fbb2f15b2a4a8a457c7b7a38afddc875.webp" data-alt="M25 фото 1">
-            <img src="https://rivcont.com/images/thumbnails/50/50/detailed/3747/fbb2f15b2a4a8a457c7b7a38afddc875.webp" alt="" loading="lazy" />
-          </div>
-          <div class="thumb" data-img="https://rivcont.com/images/thumbnails/detailed/3747/c83f7af604fcf0f2b7c90981a3b723a4.webp" data-alt="M25 фото 2">
-            <img src="https://rivcont.com/images/thumbnails/50/50/detailed/3747/c83f7af604fcf0f2b7c90981a3b723a4.webp" alt="" loading="lazy" />
-          </div>
-          <div class="thumb" data-img="https://rivcont.com/images/thumbnails/detailed/3747/0e798910113062d65d41f4bace6cbc3a.webp" data-alt="M25 фото 3">
-            <img src="https://rivcont.com/images/thumbnails/50/50/detailed/3747/0e798910113062d65d41f4bace6cbc3a.webp" alt="" loading="lazy" />
-          </div>
-        </div>
-
-        <div class="feat">
-          <h3 style="margin:0 0 6px">🚚 Отправка сегодня</h3>
-          <p>Оставь заявку — мы подтвердим заказ и отправим удобной службой доставки.</p>
-        </div>
+      <div class="iconCard">
+        <img alt="Звук" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Audio-volume-high-symbolic.svg/256px-Audio-volume-high-symbolic.svg.png">
+        <div class="t">Чистый звук</div>
+        <div class="d">Стерео + уверенные басы</div>
+      </div>
+      <div class="iconCard">
+        <img alt="Гарантия" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Emblem-important.svg/240px-Emblem-important.svg.png">
+        <div class="t">Гарантия</div>
+        <div class="d">14 дней на проверку</div>
       </div>
     </div>
-  </header>
 
-  <section id="why">
-    <div class="container">
-      <h2 class="h2">Почему этот M25 реально покупают</h2>
-      <p class="desc">Собрал то, что влияет на комфорт каждый день: связь, звук, удобство и контроль заряда.</p>
+    <div class="deal" id="order">
+      <div class="dealTop">Только сегодня: скидка на заказ — <span>успей оформить</span></div>
 
-      <div class="grid3">
-        <div class="feat">
-          <div class="ico">
-            <svg viewBox="0 0 24 24"><path d="M12 3a7 7 0 0 1 7 7v3a5 5 0 0 1-5 5h-1v-2h1a3 3 0 0 0 3-3v-3a5 5 0 0 0-10 0v3a3 3 0 0 0 3 3h1v2h-1a5 5 0 0 1-5-5v-3a7 7 0 0 1 7-7z"/></svg>
-          </div>
-          <h3>Звонки и шумоподавление</h3>
-          <p>Комфортнее общаться в городе и транспорте — меньше лишнего шума, больше голоса.</p>
+      <div class="timerBox">
+        До конца акции осталось:
+        <div class="timer" aria-label="Таймер">
+          <div class="tUnit"><div class="tNum" id="hh">00</div><div class="tLbl">часов</div></div>
+          <div class="tUnit"><div class="tNum" id="mm">00</div><div class="tLbl">минут</div></div>
+          <div class="tUnit"><div class="tNum" id="ss">00</div><div class="tLbl">секунд</div></div>
+        </div>
+      </div>
+
+      <form class="form" id="orderForm">
+        <div class="in">
+          <svg viewBox="0 0 24 24"><path d="M12 12a4 4 0 1 0-4-4 4 4 0 0 0 4 4zm0 2c-4.42 0-8 2.24-8 5v1h16v-1c0-2.76-3.58-5-8-5z"/></svg>
+          <input name="name" id="name" placeholder="Введите ваше имя" required>
+        </div>
+        <div class="in">
+          <svg viewBox="0 0 24 24"><path d="M20 15.5a12.17 12.17 0 0 1-3.86-.61 1 1 0 0 0-1 .24l-2.2 2.2a15.06 15.06 0 0 1-6.27-6.27l2.2-2.2a1 1 0 0 0 .24-1A12.17 12.17 0 0 1 8.5 4 1 1 0 0 0 7.5 3H4a1 1 0 0 0-1 1A17 17 0 0 0 20 21a1 1 0 0 0 1-1v-3.5a1 1 0 0 0-1-1z"/></svg>
+          <input name="phone" id="phone" placeholder="Введите ваш телефон" required>
         </div>
 
-        <div class="feat">
-          <div class="ico">
-            <svg viewBox="0 0 24 24"><path d="M7 2h10v4H7V2zm10 6h2a3 3 0 0 1 3 3v1a3 3 0 0 1-3 3h-2v3a4 4 0 0 1-4 4h-2a4 4 0 0 1-4-4V8h14zm-2 0H9v10a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2V8z"/></svg>
-          </div>
-          <h3>Кейс большой ёмкости</h3>
-          <p>2000 мАч — удобно в дороге. Плюс дисплей заряда, чтобы не гадать «сколько осталось».</p>
-        </div>
+        <button class="btn" type="submit">Оформить заказ</button>
 
-        <div class="feat">
-          <div class="ico">
-            <svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 1 7 7c0 2.07-.9 3.93-2.33 5.2L12 22 7.33 14.2A6.96 6.96 0 0 1 5 9a7 7 0 0 1 7-7zm0 4a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/></svg>
-          </div>
-          <h3>Bluetooth 5.3</h3>
-          <p>Стабильнее соединение и меньше задержка — комфортнее для видео и повседневного использования.</p>
+        <div class="stock">⚠️ Количество по акции: <b id="stock">12</b> шт.</div>
+        <div class="fine">Нажимая «Оформить заказ», вы соглашаетесь на обработку данных для связи.</div>
+      </form>
+    </div>
+
+    <div class="section">
+      <div class="h2">Ваши идеальные Bluetooth-наушники</div>
+      <div class="note">Листай фото — и смотри детали.</div>
+
+      <div class="slider" id="slider">
+        <div class="slide">
+          <img id="slideImg" src="https://rivcont.com/images/thumbnails/detailed/3747/c83f7af604fcf0f2b7c90981a3b723a4.webp" alt="M25 фото">
         </div>
+        <button class="navBtn left" type="button" aria-label="Назад" id="prev">‹</button>
+        <button class="navBtn right" type="button" aria-label="Вперед" id="next">›</button>
+      </div>
+
+      <div class="txtBlock">
+        M25 совмещают <b>стабильный Bluetooth</b>, удобный кейс с <b>LED-дисплеем</b> и защиту <b>IPX7</b>.
+        Отлично подходят для города, спорта и звонков.
       </div>
     </div>
-  </section>
 
-  <section id="compare">
-    <div class="container">
-      <h2 class="h2">M25 против «обычных» TWS</h2>
-      <p class="desc">Чтобы не переплачивать и не разочароваться: вот что действительно отличает M25.</p>
-
-      <div class="compare">
-        <div class="list card">
-          <h3 style="margin:0 0 10px; padding:16px 16px 0">✅ M25</h3>
-          <div style="padding:0 16px 16px">
-            <div class="li"><div class="mark">✓</div><div><b>LED-дисплей заряда</b><span>Всегда видно, сколько осталось</span></div></div>
-            <div class="li"><div class="mark">✓</div><div><b>Bluetooth 5.3</b><span>Стабильнее связь</span></div></div>
-            <div class="li"><div class="mark">✓</div><div><b>IPX7</b><span>Защита от влаги</span></div></div>
-            <div class="li"><div class="mark">✓</div><div><b>Кейс 2000 мАч</b><span>Больше автономности</span></div></div>
-          </div>
-        </div>
-
-        <div class="list card">
-          <h3 style="margin:0 0 10px; padding:16px 16px 0">❌ Обычные</h3>
-          <div style="padding:0 16px 16px">
-            <div class="li"><div class="mark xmark">✕</div><div><b>Нет дисплея</b><span>Нужно угадывать заряд</span></div></div>
-            <div class="li"><div class="mark xmark">✕</div><div><b>Связь слабее</b><span>Могут быть «отвалы»</span></div></div>
-            <div class="li"><div class="mark xmark">✕</div><div><b>Слабая защита</b><span>Не для активного дня</span></div></div>
-            <div class="li"><div class="mark xmark">✕</div><div><b>Меньше автономность</b><span>Чаще заряжать</span></div></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="cta" style="margin-top:14px">
-        <a class="btn btn--primary" href="#order">Хочу M25 за <span id="priceCTA2">249</span> грн</a>
-        <a class="btn btn--ghost" href="#reviews">Отзывы</a>
+    <div class="section">
+      <div class="h2">Видеообзор</div>
+      <div class="note">Можно заменить на свой ролик/отзыв.</div>
+      <div class="video">
+        <!-- Замени VIDEO_ID на свой ролик (YouTube) -->
+        <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="Видеообзор" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
-  </section>
 
-  <section id="reviews">
-    <div class="container">
-      <h2 class="h2">Отзывы покупателей</h2>
-      <p class="desc">Примеры отзывов для лендинга. Можно заменить на реальные (пришлёшь — вставлю).</p>
+    <div class="section">
+      <div class="h2">Преимущества M25</div>
 
+      <div class="benefits">
+        <div class="bCard">
+          <img src="https://www.daraz.pk/products/m25-damix-tws-gaming-headphones-true-wireless-bluetooth-53-earbuds-earphones-with-touch-control-deep-bass-hi-fi-stereo-sound-low-latency-gaming-mode-noise-reduction-mic-led-digital-display-charging-case-long-battery-life-waterproof-sweatproo-i897939424.html" alt="Power bank кейс (пример)">
+          <div class="bText">
+            <div class="bTitle">Кейс-PowerBank</div>
+            <p class="bDesc">Большая ёмкость помогает дольше оставаться на связи и слушать музыку без подзарядки.</p>
+          </div>
+        </div>
+
+        <div class="bCard">
+          <img src="https://www.joom.com/en/products/5d352d8528fc7101019f6199" alt="LED дисплей (пример)">
+          <div class="bText">
+            <div class="bTitle">LED-дисплей заряда</div>
+            <p class="bDesc">Видно заряд кейса и наушников — меньше сюрпризов, больше контроля.</p>
+          </div>
+        </div>
+
+        <div class="bCard">
+          <img src="https://www.daraz.pk/products/m25-tws-true-wireless-bluetooth-53-earbuds-hifi-stereo-sound-bluetooth-earbuds-noise-cancelling-wireless-earbuds-charging-case-i413515501.html" alt="M25 фото (пример)">
+          <div class="bText">
+            <div class="bTitle">Стабильная связь</div>
+            <p class="bDesc">Подходит для видео, звонков и музыки — меньше задержек, комфортнее каждый день.</p>
+          </div>
+        </div>
+      </div>
+
+      <a class="ctaMid" href="#order">Заказать сейчас за <span id="priceMid">249</span> грн</a>
+    </div>
+
+    <div class="section">
+      <div class="h2">Характеристики</div>
+      <div class="spec">
+        <div class="rowSpec"><div class="k">Модель</div><div class="v">M25</div></div>
+        <div class="rowSpec"><div class="k">Bluetooth</div><div class="v">5.3</div></div>
+        <div class="rowSpec"><div class="k">Кейс</div><div class="v">2000 мАч (PowerBank)</div></div>
+        <div class="rowSpec"><div class="k">Защита</div><div class="v">IPX7</div></div>
+        <div class="rowSpec"><div class="k">Зарядка</div><div class="v">≈ 1 час</div></div>
+        <div class="rowSpec"><div class="k">Время работы</div><div class="v">3–4 часа</div></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="h2">Отзывы покупателей</div>
       <div class="reviews">
-        <div class="review">
-          <div class="stars">★★★★★</div>
-          <div class="name">Олег, Киев</div>
-          <p>За свои деньги — топ. Дисплей удобный, связь держит нормально, для звонков тоже ок.</p>
+        <div class="rev">
+          <div class="revTop"><div class="revName">Олег, Киев</div><div class="revStars">★★★★★</div></div>
+          <p>Звук отличный за свои деньги. Дисплей очень удобен, заряд видно сразу.</p>
         </div>
-        <div class="review">
-          <div class="stars">★★★★★</div>
-          <div class="name">Марина, Днепр</div>
-          <p>Пришли быстро. Нравится, что видно заряд и в ушах сидят удобно. Для спорта отлично.</p>
+        <div class="rev">
+          <div class="revTop"><div class="revName">Марина, Днепр</div><div class="revStars">★★★★★</div></div>
+          <p>Пришли быстро, сидят удобно. Для прогулок и спорта то, что надо.</p>
         </div>
-        <div class="review">
-          <div class="stars">★★★★☆</div>
-          <div class="name">Андрей, Львов</div>
-          <p>Звук хороший, микрофон норм. Защита от влаги плюс. За 249 грн вообще без вопросов.</p>
+        <div class="rev">
+          <div class="revTop"><div class="revName">Андрей, Львов</div><div class="revStars">★★★★☆</div></div>
+          <p>Связь стабильная. За 249 грн вообще супер.</p>
         </div>
       </div>
     </div>
-  </section>
 
-  <section id="faq">
-    <div class="container">
-      <h2 class="h2">FAQ</h2>
-      <p class="desc">Ответы на частые вопросы — снимают сомнения перед покупкой.</p>
-
-      <div class="faq">
-        <div class="card" style="padding:16px">
-          <details open>
-            <summary>Можно оплатить при получении?</summary>
-            <p>Да. Можно наложенным платежом при получении. Также доступна онлайн-оплата (если подключишь).</p>
-          </details>
-          <details>
-            <summary>С какими телефонами работают?</summary>
-            <p>С любыми устройствами с Bluetooth: Android, iPhone, планшеты, ноутбуки.</p>
-          </details>
-          <details>
-            <summary>Сколько держат заряд?</summary>
-            <p>Рабочее время заявлено 3–4 часа, музыкальное 3–5 часов. Кейс подзаряжает в дороге.</p>
-          </details>
-          <details>
-            <summary>Есть гарантия?</summary>
-            <p>Да, 14 дней на проверку и возврат/обмен при соблюдении условий.</p>
-          </details>
-        </div>
-
-        <div class="card" style="padding:16px">
-          <h3 style="margin:0 0 10px">Коротко про доставку</h3>
-          <div class="feat" style="margin-bottom:10px">
-            <h3 style="margin:0 0 6px">🚚 Доставка</h3>
-            <p style="margin:0" class="desc">Новая Почта / Укрпочта по Украине.</p>
+    <div class="section">
+      <div class="h2">Доставка и оплата</div>
+      <div class="ship">
+        <div class="grid">
+          <div class="cell">
+            <b>Как заказать?</b>
+            <span>Оставьте заявку — менеджер перезвонит и уточнит детали.</span>
           </div>
-          <div class="feat" style="margin-bottom:10px">
-            <h3 style="margin:0 0 6px">💳 Оплата</h3>
-            <p style="margin:0" class="desc">Наложенный платёж или онлайн (при необходимости подключим).</p>
+          <div class="cell">
+            <b>Оплата</b>
+            <span>Наложенный платёж (при получении) или онлайн (если подключите).</span>
           </div>
-          <div class="feat">
-            <h3 style="margin:0 0 6px">🛡️ Гарантия</h3>
-            <p style="margin:0" class="desc">14 дней — можно спокойно проверить.</p>
+          <div class="cell">
+            <b>Доставка</b>
+            <span>Новая Почта / Укрпочта по Украине.</span>
           </div>
-
-          <div class="cta" style="margin-top:12px">
-            <a class="btn btn--primary" href="#order">Заказать</a>
-            <a class="btn btn--ghost" href="tel:+380675127045">Позвонить</a>
+          <div class="cell">
+            <b>Гарантия</b>
+            <span>14 дней на проверку качества.</span>
           </div>
         </div>
       </div>
     </div>
-  </section>
 
-  <section id="order">
-    <div class="container">
-      <h2 class="h2">Оформить заказ</h2>
-      <p class="desc">Заполни форму — мы перезвоним и подтвердим доставку.</p>
-
-      <div class="card order">
-        <div class="how">
-          <h3 style="margin:0 0 6px">Как оформить</h3>
-          <p class="desc" style="margin:0 0 10px">Три шага и наушники у тебя.</p>
-
-          <div class="steps">
-            <div class="step"><div class="n">1</div><div><b>Оставляешь заявку</b><span>Имя + телефон + доставка</span></div></div>
-            <div class="step"><div class="n">2</div><div><b>Подтверждаем</b><span>Уточняем отделение/адрес и оплату</span></div></div>
-            <div class="step"><div class="n">3</div><div><b>Получаешь</b><span>Проверяешь — 14 дней гарантии</span></div></div>
-          </div>
-
-          <div class="pricebox" style="margin-top:12px">
-            <div class="price"><span id="priceOrder">249</span> <small>грн</small></div>
-            <div>
-              <div class="old">Было: <span id="oldPrice2">399</span> грн</div>
-              <div class="save">Экономия: <span id="save2">150</span> грн</div>
-            </div>
-          </div>
-
-          <p class="mini">
-            Сейчас форма отправляет заявку через email (mailto). Если хочешь — сделаю отправку в Telegram/CRM/Google Sheets.
-          </p>
+    <div class="section" style="padding-bottom:0">
+      <div class="deal">
+        <div class="dealTop">Повторить заказ по акции — <span>оформите заявку</span></div>
+        <div class="form" style="padding-top:10px">
+          <a class="btn" href="#order" style="display:block; text-align:center;">Оформить заказ за 249 грн</a>
+          <div class="fine">Если нужно — добавлю Telegram/CRM/Sheets вместо mailto.</div>
         </div>
-
-        <form id="orderForm" novalidate>
-          <div class="row">
-            <div>
-              <label for="name">Ваше имя</label>
-              <input id="name" name="name" type="text" placeholder="Например, Ирина" required />
-            </div>
-            <div>
-              <label for="phone">Телефон</label>
-              <input id="phone" name="phone" type="tel" placeholder="+380 __ ___ __ __" required />
-            </div>
-          </div>
-
-          <div class="row" style="margin-top:10px">
-            <div>
-              <label for="city">Город</label>
-              <input id="city" name="city" type="text" placeholder="Киев" />
-            </div>
-            <div>
-              <label for="delivery">Доставка</label>
-              <select id="delivery" name="delivery">
-                <option>Новая Почта</option>
-                <option>Укрпочта</option>
-              </select>
-            </div>
-          </div>
-
-          <div style="margin-top:10px">
-            <label for="branch">Отделение / адрес</label>
-            <input id="branch" name="branch" type="text" placeholder="Напр., НП №12 / улица..." />
-          </div>
-
-          <div style="margin-top:10px">
-            <label for="comment">Комментарий (необязательно)</label>
-            <textarea id="comment" name="comment" rows="3" placeholder="Например: перезвонить после 18:00"></textarea>
-          </div>
-
-          <button class="btn btn--primary" type="submit" style="width:100%; margin-top:12px">
-            Отправить заявку • <span id="priceBtn">249</span> грн
-          </button>
-
-          <p class="hint">Нажимая «Отправить», вы соглашаетесь на обработку данных для связи по заказу.</p>
-        </form>
       </div>
     </div>
-  </section>
 
-  <footer>
-    <div class="container footergrid">
-      <div>
-        <b style="color:rgba(234,240,255,.86)">M25 • Лендинг</b>
-        <p style="margin:8px 0 0">Доставка по Украине • Гарантия 14 дней • Оплата при получении</p>
+    <footer>
+      <div>© <span id="year"></span> • Одностраничный лендинг</div>
+      <div class="links" style="margin-top:6px;">
+        <a href="#" onclick="alert('Добавь свою страницу политики/оферты');return false;">Политика конфиденциальности</a>
+        ·
+        <a href="#" onclick="alert('Добавь свою страницу оферты');return false;">Публичная оферта</a>
       </div>
-      <div>
-        <p style="margin:0">
-          Контакты: <a href="tel:+380675127045">+380 (67) 512-70-45</a>
-        </p>
-        <p style="margin:8px 0 0; font-size:12px">
-          © <span id="year"></span>
-        </p>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Sticky CTA -->
-  <div class="sticky" aria-label="Быстрый заказ">
-    <div class="container sticky__inner">
-      <div class="sticky__p">
-        <div style="font-size:12px; color:rgba(234,240,255,.7)">Цена по акции</div>
-        <b><span id="priceSticky">249</span> грн</b>
-      </div>
-      <a class="btn btn--primary btn--small" href="#order">Заказать</a>
-    </div>
+    </footer>
   </div>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "Беспроводные наушники M25",
-    "sku": "8162",
-    "image": [
-      "https://rivcont.com/images/thumbnails/detailed/3747/fbb2f15b2a4a8a457c7b7a38afddc875.webp",
-      "https://rivcont.com/images/thumbnails/detailed/3747/c83f7af604fcf0f2b7c90981a3b723a4.webp",
-      "https://rivcont.com/images/thumbnails/detailed/3747/0e798910113062d65d41f4bace6cbc3a.webp"
-    ],
-    "offers": {
-      "@type": "Offer",
-      "priceCurrency": "UAH",
-      "price": "249",
-      "availability": "https://schema.org/InStock"
-    }
-  }
-  </script>
 
   <script>
-    // ===== CONFIG (меняй здесь цену/телефон) =====
+    // ====== CONFIG ======
     const CONFIG = {
       price: 249,
       oldPrice: 399,
-      phoneDisplay: "+380 (67) 512-70-45",
-      phoneTel: "+380675127045",
-      email: "rivcont.sales.info@gmail.com"
+      stock: 12,
+      // Таймер: конец акции сегодня в 23:59 по Киеву (локальное время браузера)
+      timerEnd: (() => {
+        const d = new Date();
+        d.setHours(23,59,59,999);
+        return d.getTime();
+      })(),
+      // Форма: куда отправлять (пока mailto). Можно заменить на Telegram/Sheets.
+      mailTo: "rivcont.sales.info@gmail.com"
     };
-    // ============================================
 
-    const $ = (s, r=document) => r.querySelector(s);
-    const $$ = (s, r=document) => Array.from(r.querySelectorAll(s));
+    // ====== PRICE SET ======
+    function setText(id, v){ const el=document.getElementById(id); if(el) el.textContent = v; }
+    setText("priceNow", CONFIG.price);
+    setText("priceMid", CONFIG.price);
+    setText("oldPrice", CONFIG.oldPrice);
+    setText("save", Math.max(0, CONFIG.oldPrice - CONFIG.price));
+    setText("stock", CONFIG.stock);
+    setText("year", new Date().getFullYear());
 
-    function setText(id, v){ const el = document.getElementById(id); if(el) el.textContent = v; }
-
-    function initPricing(){
-      const save = Math.max(0, (CONFIG.oldPrice||0) - (CONFIG.price||0));
-      ["price","priceCTA","priceCTA2","priceOrder","priceBtn","priceSticky"].forEach(id => setText(id, CONFIG.price));
-      ["oldPrice","oldPrice2"].forEach(id => setText(id, CONFIG.oldPrice));
-      ["save","save2"].forEach(id => setText(id, save));
+    // ====== TIMER ======
+    function pad(n){ return String(n).padStart(2,"0"); }
+    function tick(){
+      const now = Date.now();
+      let diff = CONFIG.timerEnd - now;
+      if(diff < 0) diff = 0;
+      const h = Math.floor(diff/3600000);
+      const m = Math.floor((diff%3600000)/60000);
+      const s = Math.floor((diff%60000)/1000);
+      setText("hh", pad(h));
+      setText("mm", pad(m));
+      setText("ss", pad(s));
     }
+    tick();
+    setInterval(tick, 1000);
 
-    function initPhone(){
-      const phoneTop = $("#phoneTop");
-      if(phoneTop){
-        phoneTop.href = "tel:" + CONFIG.phoneTel;
-        phoneTop.innerHTML = `<span>Тел:</span> <b>${CONFIG.phoneDisplay}</b>`;
-      }
+    // ====== SLIDER ======
+    const SLIDES = [
+      "https://rivcont.com/images/thumbnails/detailed/3747/c83f7af604fcf0f2b7c90981a3b723a4.webp",
+      "https://rivcont.com/images/thumbnails/detailed/3747/0e798910113062d65d41f4bace6cbc3a.webp",
+      // “Маркетинговые” картинки (как у примеров) — можно заменить/скачать локально
+      "https://www.daraz.pk/products/m25-tws-true-wireless-bluetooth-53-earbuds-hifi-stereo-sound-bluetooth-earbuds-noise-cancelling-wireless-earbuds-charging-case-i413515501.html",
+      "https://www.joom.com/en/products/5d352d8528fc7101019f6199"
+    ];
+    let idx = 0;
+    const slideImg = document.getElementById("slideImg");
+    function show(i){
+      idx = (i + SLIDES.length) % SLIDES.length;
+      slideImg.src = SLIDES[idx];
     }
+    document.getElementById("prev").addEventListener("click", ()=>show(idx-1));
+    document.getElementById("next").addEventListener("click", ()=>show(idx+1));
 
-    function initGallery(){
-      const mainImg = $("#mainImg");
-      $$(".thumb").forEach(t=>{
-        t.addEventListener("click", ()=>{
-          $$(".thumb").forEach(x=>x.classList.remove("active"));
-          t.classList.add("active");
-          mainImg.src = t.getAttribute("data-img");
-          mainImg.alt = t.getAttribute("data-alt") || "M25";
-        });
-      });
-    }
+    // ====== FORM (mailto) ======
+    document.getElementById("orderForm").addEventListener("submit", (e)=>{
+      e.preventDefault();
+      const name = (document.getElementById("name").value||"").trim();
+      const phone = (document.getElementById("phone").value||"").trim();
+      if(name.length < 2){ alert("Введите имя"); return; }
+      if(phone.length < 8){ alert("Введите телефон"); return; }
 
-    function smooth(){
-      $$('a[href^="#"]').forEach(a=>{
-        a.addEventListener("click",(e)=>{
-          const id = a.getAttribute("href");
-          if(!id || id==="#") return;
-          const el = document.querySelector(id);
-          if(!el) return;
-          e.preventDefault();
-          el.scrollIntoView({behavior:"smooth", block:"start"});
-        });
-      });
-    }
-
-    function initForm(){
-      const form = $("#orderForm");
-      form.addEventListener("submit", (e)=>{
-        e.preventDefault();
-        const name = $("#name").value.trim();
-        const phone = $("#phone").value.trim();
-        if(name.length < 2){ alert("Укажите имя"); return; }
-        if(phone.length < 8){ alert("Укажите корректный телефон"); return; }
-
-        const data = {
-          name,
-          phone,
-          city: $("#city").value.trim(),
-          delivery: $("#delivery").value,
-          branch: $("#branch").value.trim(),
-          comment: $("#comment").value.trim()
-        };
-
-        const subject = encodeURIComponent(`Заявка: M25 (${CONFIG.price} грн)`);
-        const body = encodeURIComponent(
-          `Товар: M25\nЦена: ${CONFIG.price} грн (было ${CONFIG.oldPrice} грн)\n\n` +
-          `Имя: ${data.name}\nТелефон: ${data.phone}\nГород: ${data.city||"-"}\n` +
-          `Доставка: ${data.delivery}\nОтделение/адрес: ${data.branch||"-"}\n` +
-          `Комментарий: ${data.comment||"-"}\n`
-        );
-
-        window.location.href = `mailto:${CONFIG.email}?subject=${subject}&body=${body}`;
-      });
-    }
-
-    initPricing();
-    initPhone();
-    initGallery();
-    initForm();
-    smooth();
-    $("#year").textContent = new Date().getFullYear();
+      const subject = encodeURIComponent(`Заявка M25 (${CONFIG.price} грн)`);
+      const body = encodeURIComponent(
+        `Товар: Беспроводные наушники M25\nЦена: ${CONFIG.price} грн (было ${CONFIG.oldPrice} грн)\n\n` +
+        `Имя: ${name}\nТелефон: ${phone}\n\n` +
+        `Источник: лендинг\n`
+      );
+      window.location.href = `mailto:${CONFIG.mailTo}?subject=${subject}&body=${body}`;
+    });
   </script>
 </body>
 </html>
